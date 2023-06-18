@@ -1,10 +1,11 @@
 @use "./utils/vars.scss" as*;
-@use "./utils/colors" as*;
-@import "./global/global";
+@use "./utils/colors.scss" as*;
+@import "./global/global.scss";
 @import "./components/main-header.scss";
 @import "./components/hero.scss";
 @import "./components/columns.scss";
-@import "./components/business.scss";
+@import "./components/occupation.scss";
+
 
 
 
