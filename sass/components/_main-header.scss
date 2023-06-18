@@ -1,0 +1,102 @@
+.main-header {
+   
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    border-bottom: solid 1px #ECECEC;
+    background: var(--background-first);
+
+    &_logo {
+        font-weight: 700;
+        text-decoration: none;
+        color: #212121;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;  
+    }
+    &_logo span {
+        color: #2196F3;
+    }
+    &_container {
+        display: flex;
+        width: 1200px;
+    }
+    &_nav {
+        display: flex;
+        margin-right: auto;
+        margin-left: 93px;
+        justify-content: center;
+        align-items: center;
+        
+        &_item {
+            margin-right: 46px;
+            display: inline;
+        }
+        &_item a {
+            font-style: normal;
+            text-decoration: none;
+            color: $primaryFontColor;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &_item:hover a,
+        &_item:focus a {
+            color: var(--focus-color);
+            color: var(--hover-color);
+        }
+        &_link--current {
+            position: absolute;
+            border-radius: 2px;
+            width: 53px;
+            height: 4px;
+            margin-top: 75px;
+            background: #2196F3;
+        }
+        
+    }
+
+    
+
+   
+
+    &_contact {
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        &_item {
+            margin-right: 50px;
+            
+        }
+        &_item a {
+            font-style: normal;
+            text-decoration: none;
+            color: var(--contact-color);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            fill: var(--contact-color);
+            
+
+            & svg {
+                margin-right: 10px;
+            }
+        
+        }
+       
+        &_item:hover a {
+            color: var(--hover-color);
+            fill: var(--hover-color);
+        }   
+    }
+}
+
+

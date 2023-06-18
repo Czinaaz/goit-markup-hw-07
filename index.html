@@ -5,54 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="css/main.min.css" type="text/css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body lang="pl">
-    <header >
-      <div class="container">
-        <div class="head">
-          <div class="head-left">
-            <div class="logo-top">
-              <a href="./index.html"><span>Web</span>Studio</a>
-            </div>
-            <ul class="nav-list">
-                <li class="nav-list-item">
-                  <a class="agency" href="./index.html">Agencja</a>
-                  <div class="underline"></div>
-                </li>
-                <li class="nav-list-item">
-                  <a class="portfolio" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-list-item">
-                  <a class="contact" href="#">Kontakt</a>
-                </li>
-              </ul>
-          </div>
-          <div class="head-right">
-            <ul class="head-right-list">
-                <li >
-                  <div class="link-mail-head">
-                    <svg width="16" height="12">
-                      <use href="./images/icons.svg#icon-envelope"></use>
-                    </svg>
-                    <a href="#">info@devstudio.com</a>
-                  </div>
-                </li>
-                <li >
-                  <div class="link-phone-head">
-                    <svg  width="16" height="12">
-                      <use href="./images/icons.svg#icon-smartphone"></use>
-                    </svg>
-                    <a href="tel:48111111111">+48 111 111 111</a>
-                  </div>
-                </li>
-            </ul>
-          </div>
-        </div>
+    <header class="main-header">
+      <div class="container main-header_container">
+        
+        <nav class="main-header_nav">       
+            <a class="main-header_logo" href="./index.html"><span>Web</span>Studio</a>
+            <menu class="main-header_nav">
+              <li class=" main-header_nav_item">
+                <a href="./index.html">
+                  <div class="main-header_nav_link--current"></div>Agencja</a>
+              </li>
+              <li class="main-header_nav_item">
+                <a href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="main-header_nav_item">
+                <a href="#">Kontakt</a>
+              </li>
+            </menu>
+        </nav>
+        <ul class="main-header_contact">
+            <li class="main-header_contact_item">
+              
+                <a href="mailto">
+                  <svg width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>info@devstudio.com</a>
+              
+            </li>
+            <li class="main-header_contact_item">
+                  
+                <a href="tel:48111111111">
+                  <svg  width="16" height="12">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>+48 111 111 111</a>
+              </div>
+            </li>
+        </ul>
+        
       </div>
     </header>    
 
@@ -60,23 +55,19 @@
       <!--HERO-->
 
       <div class="hero">
-        <div class="container">
-          <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <div class="button-hero">
-            <button class="button" type="button" data-modal-open>Zamów usługe</button>
-          </div>
-        </div>
+            <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <button class="hero_button button" type="button" data-modal-open>Zamów usługe</button>
       </div>
-
+      
       <!--OPIS-->
 
       <section class="section">
         <div class="container">
-          <div class="text"> 
-            <ul class="text-set">
-              <li class="text-item">
-                <div class="text-icon">
-                <svg class="icon-item" width="70" height="70">
+          <div class="columns"> 
+            <ul class="columns_list">
+              <li class="columns_list_item">
+                <div class="columns_list_pic">
+                <svg class="" width="70" height="70">
                   <use href="./images/icons.svg#icon-group-11"></use>
                 </svg>
                 </div>
@@ -84,9 +75,9 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Nam velarcu sem. Sed non sodales dui. Interdum et malesuada</p>
               </li>
-              <li class="text-item">
-                <div class="text-icon">
-                <svg class="icon-item" width="70" height="70">
+              <li class="columns_list_item">
+                <div class="columns_list_pic">
+                <svg  width="70" height="70">
                   <use href="./images/icons.svg#icon-group-21"></use>
                 </svg>
                 </div>
@@ -95,9 +86,9 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
              </li>
-              <li class="text-item">
-                <div class="text-icon">
-                <svg class="icon-item" width="70" height="70">
+              <li class="columns_list_item">
+                <div class="columns_list_pic">
+                <svg  width="70" height="70">
                   <use href="./images/icons.svg#icon-group-31"></use>
                 </svg>
                 </div>
@@ -107,9 +98,9 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
               </li>
-              <li class="text-item">
-                <div class="text-icon">
-                <svg class="icon-item" width="70" height="70">
+              <li class="columns_list_item">
+                <div class="columns_list_pic">
+                <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-group-41"></use>
                 </svg>
                </div>
@@ -129,40 +120,34 @@
       <section class="section">
         <div class="container">
           <div class="business">
-            <h2 class="business-head">Czym się zajmujemy</h2>
-            <ul class="business-list">
-              <li class="business-item">
+            <h2>Czym się zajmujemy</h2>
+            <ul class="business_list">
+              <li class="business_item">
                 <img
                   src="images/imgpic1.jpg"
                   alt="Programer working"
                   width="370"
                   height="294"
                 />
-                <div class="image-text">
-                  <p class="business-text">Aplikacje komputerowe</p>
-                </div>
+                <p >Aplikacje komputerowe</p>
               </li>
-              <li class="business-item">
+              <li class="business_item">
                 <img
                   src="images/imgpic2.jpg"
                   alt="Frontend developer"
                   width="370"
                   height="294"
                 />
-                <div class="image-text">
-                  <p class="business-text">Aplikacje mobilne</p>
-                </div>
+                <p class="business-text">Aplikacje mobilne</p>
               </li>
-              <li class="business-item">
+              <li class="business_item">
                 <img
                   src="images/imgpic3.jpg"
                   alt="Web design"
                   width="370"
                   height="294"
                 />
-                <div class="image-text">
-                  <p class="business-text">Rozwiązania graficzne</p>
-                </div>
+                <p class="business-text">Rozwiązania graficzne</p>
               </li>
             </ul>
           </div>
@@ -171,7 +156,7 @@
 
       <!--O NAS-->
 
-    <div class="staff">
+    <section class="section">
       <div class="container">
         <h2 class="staff-head">Nasz zespół</h2>
         <ul class="staff-list">
@@ -309,7 +294,7 @@
             </li>
         </ul>
       </div>
-    </div>
+    </section>
     <section class="section" >
       <div class="container">
         <div>
@@ -380,10 +365,10 @@
                   <p>m. Warszawa, Aleje Jerozolimskie 21</p>
                 </li>
                 <li>
-                  <p class="link-footer1">info@example.com</p>
+                  <p class="">info@example.com</p>
                 </li>
                 <li>
-                  <p class="link-footer2">+48 111 111 111</p>
+                  <p class="">+48 111 111 111</p>
                 </li>
                 </ul>
               </address>

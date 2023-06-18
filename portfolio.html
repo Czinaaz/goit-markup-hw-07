@@ -9,62 +9,55 @@
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <link rel="stylesheet" href="css/main.min.css" type="text/css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body lang="pl">
-    <header>
-        <div class="container">
-            <div class="head">
-              <div class="head-left">
-                <div class="logo-top">
-                  <a href="./index.html"><span>Web</span>Studio</a>
-                </div>
-                <ul class="nav-list">
-                    <li class="nav-list-item">
-                      <a class="agency" href="./index.html">Agencja</a>
-                      
-                    </li>
-                    <li class="nav-list-item">
-                      <a class="portfolio" href="./portfolio.html">Portfolio</a>
-                      <div class="underline"></div>
-                    </li>
-                    <li class="nav-list-item">
-                      <a class="contact" href="#">Kontakt</a>
-                    </li>
-                  </ul>
+    <header class="main-header">
+      <div class="container main-header_container">
+        
+        <nav class="main-header_nav">       
+            <a class="main-header_logo" href="./index.html"><span>Web</span>Studio</a>
+            <menu class="main-header_nav">
+              <li class=" main-header_nav_item">
+                <a  href="./index.html">Agencja</a>
+              </li>
+              <li class="main-header_nav_item">
+                <a href="./portfolio.html"><div class="main-header_nav_link--current"></div>Portfolio</a>
+              </li>
+              <li class="main-header_nav_item">
+                <a href="#">Kontakt</a>
+              </li>
+            </menu>
+        </nav>
+        <ul class="main-header_contact">
+            <li class="main-header_contact_item">
+              
+                <a href="mailto">
+                  <svg width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg> info@devstudio.com</a>
+              
+            </li>
+            <li class="main-header_contact_item">
+                  
+                <a href="tel:48111111111">
+                  <svg  width="16" height="12">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg> +48 111 111 111</a>
               </div>
-                <div class="head-right">
-                    <ul class="head-right-list">
-                        <li >
-                            <div class="link-mail-head">
-                              <svg width="16" height="12">
-                                <use href="./images/icons.svg#icon-envelope"></use>
-                              </svg>
-                              <a href="#">info@devstudio.com</a>
-                            </div>
-                        </li>
-                        <li >
-                            <div class="link-phone-head">
-                              <svg  width="16" height="12">
-                                <use href="./images/icons.svg#icon-smartphone"></use>
-                              </svg>
-                              <a href="tel:48111111111">+48 111 111 111</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+            </li>
+        </ul>
+        
+      </div>
     </header>    
     <main>
         <div class="container">
-            <section class="section">
-                <!--HERO-->
-                <div>
+          <section class="section">
+          <!--HERO-->
+            <div>
                     <ul class="button-head">
                         <li class="button"><button type="button">Wszystkie</button></li>
                         <li class="button"><button type="button">Strony</button></li>
@@ -72,9 +65,9 @@
                         <li class="button"><button type="button">Dizajn</button></li>
                         <li class="button"><button type="button">Marketing</button></li>
                     </ul>
-                </div>    
-                <!--Opis-->
-                <div>
+            </div>    
+          <!--Opis-->
+            <div>
                     <ul class="image-list">
                         <li class="item">
                           <div class="box">
@@ -241,8 +234,8 @@
                         </li>
                             
                     </ul>
-                </div> 
-            </section>
+            </div> 
+          </section>
         </div>        
     </main>
     <footer class="footer">
