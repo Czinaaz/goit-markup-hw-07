@@ -1,14 +1,15 @@
 .main-header {
-    width: 1600px;
     height: 80px;
     display: flex;
     border-bottom: solid 1px #ECECEC;
     background: var(--background-first);
+    justify-content: center;
+    margin: auto;
 
     &_logo {
         font-weight: 700;
         text-decoration: none;
-        color: #212121;
+        color: $primaryFontColor;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -55,7 +56,7 @@
             border-radius: 2px;
             width: 53px;
             height: 4px;
-            margin-top: 75px;
+            margin-top: 48px;
             background: #2196F3;
         }
         
