@@ -41,27 +41,29 @@
         margin-bottom: 9px;
     }
     &_address {
-        margin-top: 20px;
-        &_place {
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 16px;
-            color: #FFFFFF;
-            text-transform: uppercase;
-            padding-top: 9px;
-        }
-        &_item {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 24px;
-            letter-spacing: 0.03em;
-            color: rgba(255, 255, 255, 0.6);
-        }
-        &_item:hover {
-            color: var(--hover-color);
-        }
+        margin-top: 20px;  
+    }
+    &_address-place {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        padding-top: 9px;
+    }
+    &_address-item {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        cursor: pointer;
+        padding-top: 9px;
+    }
+    &_address-item:hover {
+        color: var(--hover-color);
     }
 
     //--Center--//
@@ -74,12 +76,11 @@
         margin-top: 20px;
         display: flex;
         justify-content: space-between;
-        gap: 10px;
-        
-        &_item {
-            width: 44px;
-            height: 44px;
-        }
+        gap: 10px;   
+    }
+    &_icon-list-item {
+        width: 44px;
+        height: 44px;
     }
     &_icon {
         fill: $secondaryFontColor;

@@ -12,13 +12,13 @@
     }
     &_list {
         display: flex;
-        &_item {
-            margin-right: 30px;
-            position: relative;
-            list-style-type: none;
-            overflow: hidden;
-            display: flex;  
-        }
+    }
+    &_list-item {
+        margin-right: 30px;
+        position: relative;
+        list-style-type: none;
+        overflow: hidden;
+        display: flex;  
     }
     &_text {
         position: absolute;

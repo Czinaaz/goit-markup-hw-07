@@ -13,16 +13,16 @@
     &_list {
         display: flex;
         justify-content: center;  
-        &_item {
-            margin-right: 30px;
-            cursor: pointer;
-            border: 1px solid #AFB1B8;
-            fill: #AFB1B8;
-        }  
-        &_item:hover {
-            border: 1px solid var(--hover-color);
-            fill: var(--hover-color);
-        }
-     
     }
+    &_list-item {
+        margin-right: 30px;
+        cursor: pointer;
+        border: 1px solid #AFB1B8;
+        fill: #AFB1B8;
+    }  
+    &_list-item:hover {
+        border: 1px solid var(--hover-color);
+        fill: var(--hover-color);
+    }
+ 
 }
